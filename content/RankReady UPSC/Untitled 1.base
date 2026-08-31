@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.folder == "SchemesBas/Schemessource"
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "SchemesBas/Schemessource"
+    order:
+      - file.name
+  - type: notion-table
+    name: View
+    order:
+      - file.name

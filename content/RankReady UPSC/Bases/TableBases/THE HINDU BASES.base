@@ -1,0 +1,18 @@
+views:
+  - type: notion-table
+    name: Table
+    filters:
+      and:
+        - file.folder == "Bases"
+    order:
+      - file.folder
+      - Date
+      - Article Title
+      - Page Number
+      - Relevance
+      - Source
+      - Subject
+      - Topic
+      - file.tags
+  - type: table
+    name: View

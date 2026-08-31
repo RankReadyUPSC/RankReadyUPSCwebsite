@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Government Schemes
+    filters:
+      and:
+        - 'file.folder == "05 SC Cases & Value Add/Data Sets Pro/Government Schemes"'
+    order:
+      - file.name
+      - ministry
+      - scheme_type
+      - launch
+      - note.Salient Features
+    sort:
+      - property: launch
+        direction: DESC
+    columnSize:
+      file.name: 260
+      ministry: 220
+      scheme_type: 180
+      launch: 90

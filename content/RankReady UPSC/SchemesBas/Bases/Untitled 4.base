@@ -1,0 +1,21 @@
+views:
+  - type: notion-table
+    name: Table
+    filters:
+      and:
+        - file.folder == "SchemesBas/schemes_notes"
+    order:
+      - Launch
+      - Ministry
+      - scheme_type
+      - tags
+    sort:
+      - property: Ministry
+        direction: ASC
+  - type: notion-table
+    name: View
+    order:
+      - tags
+      - scheme_type
+      - scheme
+      - type

@@ -1,0 +1,15 @@
+views:
+  - type: notion-table
+    name: Table
+    order:
+      - cssclasses
+      - Multiple
+      - Number
+      - tags
+    wrapCells: true
+    verticalLines: true
+  - type: table
+    name: View
+    sort:
+      - property: file.name
+        direction: ASC
