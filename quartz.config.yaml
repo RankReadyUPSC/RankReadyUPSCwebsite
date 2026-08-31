@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: changeme.pages.dev
+  baseUrl: rankreadyupsc.github.io/RankReadyUPSCwebsite
   ignorePatterns:
     - private
     - templates
